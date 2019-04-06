@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B505CF32-D5F0-4529-82EB-541CBA18C506}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{886D4B35-74A0-43C8-9511-5AD6D7F3F696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1927865D-8778-4B73-B134-0F95AD9E97E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holiday.Business", "Core\Holiday.Business\Holiday.Business.csproj", "{79631C8C-0ECF-48CB-A8AA-F08B3FDFEE34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{A94044DF-52E7-44F5-AED7-860B481517D8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Holiday.DB", "DB\Holiday.DB\Holiday.DB.sqlproj", "{ECC2C603-CC3F-4306-B999-45C01E333DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holiday.DB.EF", "DB\Holiday.DB.EF\Holiday.DB.EF.csproj", "{2274F78D-9167-48E1-BCFB-FAF4CA320BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayTest", "Test\HolidayTest\HolidayTest.csproj", "{A182B92C-3026-4235-841F-064C7810178E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79631C8C-0ECF-48CB-A8AA-F08B3FDFEE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79631C8C-0ECF-48CB-A8AA-F08B3FDFEE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79631C8C-0ECF-48CB-A8AA-F08B3FDFEE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79631C8C-0ECF-48CB-A8AA-F08B3FDFEE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC2C603-CC3F-4306-B999-45C01E333DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC2C603-CC3F-4306-B999-45C01E333DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC2C603-CC3F-4306-B999-45C01E333DE7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ECC2C603-CC3F-4306-B999-45C01E333DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC2C603-CC3F-4306-B999-45C01E333DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC2C603-CC3F-4306-B999-45C01E333DE7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2274F78D-9167-48E1-BCFB-FAF4CA320BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2274F78D-9167-48E1-BCFB-FAF4CA320BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2274F78D-9167-48E1-BCFB-FAF4CA320BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2274F78D-9167-48E1-BCFB-FAF4CA320BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A182B92C-3026-4235-841F-064C7810178E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A182B92C-3026-4235-841F-064C7810178E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A182B92C-3026-4235-841F-064C7810178E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A182B92C-3026-4235-841F-064C7810178E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79631C8C-0ECF-48CB-A8AA-F08B3FDFEE34} = {B505CF32-D5F0-4529-82EB-541CBA18C506}
+		{ECC2C603-CC3F-4306-B999-45C01E333DE7} = {A94044DF-52E7-44F5-AED7-860B481517D8}
+		{2274F78D-9167-48E1-BCFB-FAF4CA320BB9} = {A94044DF-52E7-44F5-AED7-860B481517D8}
+		{A182B92C-3026-4235-841F-064C7810178E} = {1927865D-8778-4B73-B134-0F95AD9E97E1}
+	EndGlobalSection
+EndGlobal
