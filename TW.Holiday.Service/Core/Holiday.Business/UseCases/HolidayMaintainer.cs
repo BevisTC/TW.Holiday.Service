@@ -15,9 +15,15 @@ namespace Holiday.Business.UseCases
         private IGenericDataAccess<TWHoliday> dataAccess;
         private ISourceGraber<SourceHoliday> sourceGraber;
 
+
         public HolidayMaintainer(ISourceGraber<SourceHoliday> sourceGraber, IGenericDataAccess<TWHoliday> dataAccess)
         {
             this.sourceGraber = sourceGraber;
+            this.dataAccess = dataAccess;
+        }
+
+        public HolidayMaintainer(IGenericDataAccess<TWHoliday> dataAccess)
+        {
             this.dataAccess = dataAccess;
         }
 
