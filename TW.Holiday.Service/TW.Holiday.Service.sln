@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holiday.DB.EF", "DB\Holiday
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayTest", "Test\HolidayTest\HolidayTest.csproj", "{A182B92C-3026-4235-841F-064C7810178E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Batch", "Batch", "{B9B661C9-9732-47D6-B396-AAEFC4CB8C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TW.Holiday.Update.Batch", "Batch\TW.Holiday.Update.Batch\TW.Holiday.Update.Batch.csproj", "{38608CE3-AE95-4698-BC6B-9DBC6794112E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{A182B92C-3026-4235-841F-064C7810178E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A182B92C-3026-4235-841F-064C7810178E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A182B92C-3026-4235-841F-064C7810178E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38608CE3-AE95-4698-BC6B-9DBC6794112E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38608CE3-AE95-4698-BC6B-9DBC6794112E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38608CE3-AE95-4698-BC6B-9DBC6794112E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38608CE3-AE95-4698-BC6B-9DBC6794112E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +60,6 @@ Global
 		{ECC2C603-CC3F-4306-B999-45C01E333DE7} = {A94044DF-52E7-44F5-AED7-860B481517D8}
 		{2274F78D-9167-48E1-BCFB-FAF4CA320BB9} = {A94044DF-52E7-44F5-AED7-860B481517D8}
 		{A182B92C-3026-4235-841F-064C7810178E} = {1927865D-8778-4B73-B134-0F95AD9E97E1}
+		{38608CE3-AE95-4698-BC6B-9DBC6794112E} = {B9B661C9-9732-47D6-B396-AAEFC4CB8C75}
 	EndGlobalSection
 EndGlobal

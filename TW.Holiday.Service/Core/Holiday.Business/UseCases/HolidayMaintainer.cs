@@ -61,7 +61,6 @@ namespace Holiday.Business.UseCases
                     holiday.Month = time.Month;
                     holiday.Day = time.Day;
                     this.dataAccess.Add(holiday);
-                    Console.WriteLine("add");
                 }
 
             }
